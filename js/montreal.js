@@ -1,7 +1,7 @@
 import * as THREE from "three";
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { SVGLoader } from "three/addons/loaders/SVGLoader.js";
+import { SVGLoader } from "three/addons/loaders/c.js";
 
 
 const width = window.innerWidth, height = window.innerHeight;
@@ -155,7 +155,7 @@ function getSymbolMesh(data) {
 
 
 let importedMeshes = [];
-const loader = new SVGLoader().setPath("/svg/");
+const loader = new SVGLoader().setPath("./svg/");
 
 // Add pin blanc
 loader.load("pin-blanc.svg", (data) => {
