@@ -1,7 +1,6 @@
 import * as THREE from "three";
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { SVGLoader } from "three/addons/loaders/c.js";
+import { SVGLoader } from "three/addons/loaders/SVGLoader.js";
 
 
 const width = window.innerWidth, height = window.innerHeight;
