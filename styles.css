@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.next {
+  position: absolute;
+  bottom: 2em;
+  z-index: 100;
+  width: 100%;
+  height: 2em;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.next-link {
+  padding: 1em 2em;
+  background: #88888844;
+  border-radius: 2em;
+  color: #444444;
+  font-family: sans-serif;
+  text-decoration: none;
+  
+  transition: background 0.2s ease, text-decoration 0.2s ease;
+}
+
+.next-link:hover {
+  text-decoration: underline;
+  background: #88888888;
+}
+
+.light {
+  background: #cccccc88;
+  color: white;
+}
+
+.light:hover {
+  background: #ccccccaa;
+}
